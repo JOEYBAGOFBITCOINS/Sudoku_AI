@@ -1,0 +1,21 @@
+Algorithm SolveSudoku(board)
+
+Input:
+    board = n x n Sudoku grid
+Output:
+    solved board or failure
+
+1. If the board is complete
+       return true
+
+2. Select the empty cell with the fewest legal values remaining (MRV heuristic)
+
+3. For each valid value in that cell
+       place the value in the cell
+
+       If SolveSudoku(board) = true
+            return true
+
+       remove the value from the cell  // backtrack
+
+4. Return false
