@@ -1,6 +1,6 @@
-CS627 Unit 5 Sudoku AI Solver
+Sudoku AI Solver
 
-This project implements an artificial intelligence agent that solves a Sudoku puzzle using a systematic search approach. The solver is designed as part of the CS627 Design and Analysis of Algorithms course and demonstrates the application of state-space search, backtracking, and heuristic optimization.
+This project implements an artificial intelligence agent that solves a Sudoku puzzle using a systematic search approach. The solver is designed as part of the Design and Analysis of Algorithms course and demonstrates the application of state-space search, backtracking, and heuristic optimization.
 
 Overview
 
